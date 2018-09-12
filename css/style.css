@@ -1,0 +1,97 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: Palatino Linotype;
+}
+.manuber{
+	padding-left: 20%;
+}
+.manuber ul li a:hover{
+	transform: scale(1.2);
+	transition: 0.6s;
+}
+#Snow-Fall{
+	height: 700px;
+	width: 100%;
+	position: relative;
+	background: url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header{
+	position: absolute; 
+	padding: 27% 40% 0% 38%;
+}
+#homeicon h2{
+	font-family: Harrington;
+}
+#about-2{
+	width: 100%;
+	min-height: 400px;
+	position: relative;
+	background: url(../img/4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.dark-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #0b0a0ca1;
+}
+#blog{
+	width: 100%;
+	min-height: 400px;
+	position: relative;
+	background: url(../img/6.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#blog-2{
+	width: 100%;
+	min-height: 450px;
+	position: relative;
+	font-family: Palatino Linotype;
+	background: url(../img/01.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.grid{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+.fas{
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    border: 5px solid #212529;
+    height: 80px;
+    width: 80px;
+}
+.icon{
+    margin-left: 50px;
+}
+#portfolio{
+	background: #000;
+}
+.card-body:hover{
+	transition: 0.5s all;
+	box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.62);
+}
+.image a img:hover{
+	transition: .5s all;
+	transform: translate(5%,5%);
+}
